@@ -1,16 +1,5 @@
 spring:
   application:
     name: ms-ad
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
-  endpoint:
-    health:
-      show-details: always
-info:
-  app:
-    name: "ms-ad"
-    description: "This is a Spring Boot application."
-    version: "1.0.0"
+
+microserviceDesc: "Related with ad"
